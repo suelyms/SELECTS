@@ -21,4 +21,15 @@ SELECT * FROM tbdep;
 
 -- Lendo o comando: Seleciona todas as colunas da tabela: tbdep e seus respectivos registros (linhas)
 
+-- Warning: Evite o uso do *, seja específico, adicione apenas as colunas que irá precisar na sua análise.
+
+-- Exemplo:
+
+SELECT estcli AS Estado,
+       cidcli AS Cidade
+  FROM tbven;
+  
+-- Lendo o comando: Seleciona as colunas: estcli (Alias: Estado) e cidcli (Alias: Cidade) da tabela: tbven
+
+
 
